@@ -110,7 +110,6 @@ class Matrix:
         return result
             
 
-
 matrix1 = Matrix(random_value=True)
 print(matrix1)
 matrix2 = Matrix([[1,0,0],[0,1,0],[0,0,1]])
@@ -120,5 +119,13 @@ print(matrix3)
 print(matrix3.isSymmetrical())
 print(matrix2.isIdentity())
 
+n = int(input("Введите степень матрицы N: "))
+
+
 new_matr = matrix3 * matrix3
 new_matr.print_matrix()
+
+new_matr2 = matrix3**1 
+new_matr2.print_matrix()
+
+print(pow(2, 2))
